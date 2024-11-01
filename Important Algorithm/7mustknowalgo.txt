@@ -1,0 +1,7 @@
+Insertion Sort
+Merge Sort
+Quick Sort
+Binary Search
+Bredth First
+Depth First
+Greedy Algorithm

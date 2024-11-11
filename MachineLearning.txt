@@ -1,0 +1,96 @@
+Here's a concise Machine Learning Cheat Sheet covering key concepts, algorithms, and metrics:
+
+1. Types of Machine Learning
+    Supervised Learning: Learn from labeled data (e.g., classification, regression).
+    Unsupervised Learning: Learn from unlabeled data (e.g., clustering, dimensionality reduction).
+    Reinforcement Learning: Learn by interacting with an environment (e.g., game AI, robotics).
+
+2. Common Algorithms
+    Supervised Learning
+        Regression:
+            Linear Regression: Predict continuous outcomes.
+            Ridge/Lasso Regression: Regularization techniques to prevent overfitting.
+        Classification:
+            Logistic Regression: Binary classification.
+            Decision Trees: Splits data into decision nodes.
+            Random Forest: Ensemble of decision trees.
+            Support Vector Machines (SVM): Finds hyperplanes for classification.
+            K-Nearest Neighbors (KNN): Classifies based on the nearest neighbors.
+            Naive Bayes: Uses Bayes' theorem with strong independence assumptions.
+            Gradient Boosting (XGBoost, LightGBM): Ensemble method improving weak learners.
+
+    Unsupervised Learning
+        Clustering:
+
+            K-Means: Groups data into K clusters.
+            Hierarchical Clustering: Builds a hierarchy of clusters.
+            DBSCAN: Density-based clustering.
+
+    Dimensionality Reduction:
+
+        PCA (Principal Component Analysis): Reduces dimensionality by orthogonal transformation.
+        t-SNE (t-distributed Stochastic Neighbor Embedding): Visualizes high-dimensional data.
+
+3. Neural Networks (Deep Learning)
+    Feedforward Neural Networks (FNN): Basic architecture of neural networks.
+    Convolutional Neural Networks (CNN): For image classification.
+    Recurrent Neural Networks (RNN): For sequential data like time series.
+    LSTM (Long Short-Term Memory): Handles long-range dependencies.
+    GRU (Gated Recurrent Units): A simplified version of LSTM.
+    Transfer Learning: Use pre-trained models (e.g., ResNet, VGG).
+    Autoencoders: Neural network for unsupervised learning (compression).
+    
+4. Model Evaluation Metrics
+    Regression:
+        Mean Squared Error (MSE): Average of squared differences between actual and predicted values.
+        Root Mean Squared Error (RMSE): Square root of MSE.
+        Mean Absolute Error (MAE): Average of absolute differences.
+        R-Squared (R²): Proportion of variance explained by the model.
+    Classification:
+        Accuracy: Proportion of correctly predicted labels.
+        Precision: True positives / (True positives + False positives).
+        Recall (Sensitivity): True positives / (True positives + False negatives).
+        F1 Score: Harmonic mean of precision and recall.
+        ROC-AUC (Receiver Operating Characteristic - Area Under Curve): Performance metric for classification models at various threshold settings.
+
+5. Data Preprocessing Techniques
+    Normalization: Scaling features to a [0, 1] range.
+    Standardization: Scaling features to have zero mean and unit variance.
+    One-Hot Encoding: Converts categorical variables into binary vectors.
+    Label Encoding: Converts categorical labels into integer values.
+    Handling Missing Data: Imputation (mean, median, mode) or dropping rows/columns.
+
+6. Model Validation Techniques
+    Train-Test Split: Split data into training and testing sets (e.g., 80-20).
+    K-Fold Cross-Validation: Splits data into K subsets and validates over all subsets.
+    Stratified Cross-Validation: Ensures class distribution is preserved in each fold.
+
+7. Bias-Variance Tradeoff
+    Bias: Error due to overly simplistic assumptions (underfitting).
+    Variance: Error due to model sensitivity to small data changes (overfitting).
+    Goal: Find a balance to avoid underfitting and overfitting.
+
+8. Hyperparameter Tuning
+    Grid Search: Exhaustively search over specified hyperparameter values.
+    Random Search: Random combinations of hyperparameters.
+    Bayesian Optimization: Smart search based on previous results.
+
+9. Common Data Sets
+    Classification: CIFAR-10, MNIST, ImageNet, Iris.
+    Regression: Boston Housing, California Housing.
+    Clustering: Titanic dataset (for binary classification too).
+
+10. Popular ML Libraries
+    Python:
+    scikit-learn: General ML algorithms.
+    TensorFlow: Deep learning framework.
+    Keras: User-friendly neural network library.
+    PyTorch: Deep learning framework with dynamic computation graph.
+    XGBoost: Optimized gradient boosting library.
+    This cheat sheet covers fundamental aspects to help you quickly reference key concepts, algorithms, and best practices in machine learning! Let me know if you need more details on any specific topic!
+
+
+
+
+
+
